@@ -1,0 +1,34 @@
+:root {
+  --absolute: absolute;
+  --center: center;
+  --column: column;
+  --fixed: fixed;
+  --flex: flex;
+  --none: none;
+  --nowrap: nowrap;
+  --row: row;
+  --row-reverse: row-reverse;
+  --wrap: wrap;
+  
+  /* CORES */
+  --cor-primaria: #bf1515;
+  --preto: #010101;
+  --branco: #fefefe;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: var(--none);
+  color: var(--preto);
+}
+
+html, body {
+  background-color: var(--branco);
+  min-height: 100%;
+}
+
+body, input, button {
+  font-family: 'Noto Sans', 'sans-serif';
+}
